@@ -14,7 +14,7 @@ on:
 
 jobs:
   Get_OIDC_ID_token:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     
     permissions:
       contents: 'read'
