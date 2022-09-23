@@ -30,8 +30,8 @@ jobs:
       with:
           create_credentials_file: true
           export_environment_variables: true
-          workload_identity_provider: 'projects/529797684709/locations/global/workloadIdentityPools/test-github-pool/providers/github'
-          service_account: 'test-github-actions@game-sandbox-308006.iam.gserviceaccount.com'
+          workload_identity_provider: 'projects/529797684709/locations/global/workloadIdentityPools/test-gh-self-runner/providers/github'
+          service_account: 'test-gh-self-runner@game-sandbox-308006.iam.gserviceaccount.com'
 #           credentials_json: '${{ secrets.GOOGLE_SECRET }}'
   
 #     - id: 'gcloud'
